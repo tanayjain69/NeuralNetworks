@@ -1,0 +1,37 @@
+## Made this project in July-2025
+
+-> Model1
+    Stats:
+        Basis: Basic linear neural network
+        Accuracy: 97.85%
+        Complexity: Just 2 linear layers
+        Training Time per epoch (my laptop): 17s
+    
+-> Model2
+    Stats:
+        Basis: Basic CNN
+        Accuracy: 99.26%
+        Complexity: 2 linear Layers + 2 Convolution layers
+        Training Time per epoch (my laptop): 30s
+
+-> Model3
+    Stats:
+        Basis: CNN+attention (didn't work out)
+        Accuracy: 11.24%
+        Complexity: Model2 + attention layer
+        Training Time per epoch (my laptop): 150s
+        Desc: Too much complication which is apparently not needed for a grayscale simple dataset like MNIST
+
+->Model4
+    Stats:
+        Basis: Model2 + tuning hyperparameters
+        Accuracy: 99.49%
+        Complexity: Model2
+        Training Time per epoch (my laptop): 28.5s
+
+->Model5
+    Stats:
+        Basis: Capsule Network
+        Accuracy: 
+        Complexity: 
+        Training Time per epoch (my laptop):
