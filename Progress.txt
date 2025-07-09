@@ -1,0 +1,22 @@
+## Made this project in July-2025
+
+-> Model1 - 2 Convolution layers - 2 Linear Layers and activation functions
+    Stats:
+        Accuracy: 73%
+        Parameters: 1.07M
+        Acc per million params: 68.2
+
+-> Model2 - 3 Convolution layers - 2 Linear Layers and 3 Batch Norm Layers and activation functions
+    Stats:
+        Accuracy: 78%
+        Parameters: 1.18M
+        Acc per million params: 66.1
+
+-> Model3 - 3 Convolution layers - 1 Linear Layer and 3 Batch Norm Layers and activation functions
+    Stats:
+        Accuracy: DNC
+        Parameters: 0.175M
+        Acc per million params: NA
+
+## Realize that time to train does not depend on number of parameters convolutional layers take a damn lot of time!!
+## Will continue this when I my better GPU laptop gets delivered.
