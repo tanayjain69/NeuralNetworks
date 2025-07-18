@@ -1,7 +1,7 @@
 # NeuralNetworks
 Exploring Neural Networks through PyTorch and TensorFlow.
 
-##Projects Involved-
+## Projects Involved-
 
 - Created a Neural Network from scratch (vanilla python) -> Created a neural network using just vanilla python and numpy with all the calculations done by hand to understand the mathematics behind neural networks and get a deeper understanding of these models.
 
