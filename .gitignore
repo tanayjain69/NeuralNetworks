@@ -1,0 +1,4 @@
+**/CIFAR-10/data/
+**/CIFAR-100/data/
+**/MNIST_digit_recognition/mnist_train.csv
+**/MNIST_digit_recognition/mnist_test.csv

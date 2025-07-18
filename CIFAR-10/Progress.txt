@@ -1,0 +1,86 @@
+## Made this project in July-2025
+
+-> Model1 - 2 Convolution layers - 2 Linear Layers and activation functions
+    Stats:
+        Accuracy: 73%
+        Parameters: 1.07M
+        Acc per million params: 68.2
+
+
+
+-> Model2 - 3 Convolution layers - 2 Linear Layers and 3 Batch Norm Layers and activation functions
+    Stats:
+        Accuracy: 77.64%
+        Parameters: 1.18M
+        Acc per million params: 66.1
+
+
+
+(V4)
+-> Model3 - 3 Convolution layers - 1 Linear Layer and 3 Batch Norm Layers and activation functions
+    Stats:
+        Accuracy: DNC
+        Parameters: 0.175M
+        Acc per million params: NA
+
+
+## Realize that time to train does not depend on number of parameters, convolutional layers take a damn lot of time!!
+## Will continue this when my better GPU laptop gets delivered.
+
+
+
+(V6)
+-> Model4 - 4 Convolution layers - 2 Linear Layers
+    Stats:
+        Accuracy: 78.35%
+        Train time per epoch: 123s
+
+## Understand that basic CNNs are not good enough so learn new types of NNs and their implementation
+
+
+
+(V7)
+-> Model5 - Residual Network(6 conv layers) + 3 Convolution layers and 2 Linear Layers
+    Stats:
+        Accuracy: 77.54%
+        Traing time per epoch: 246s
+
+# In every residual block increasing the width of the network is very important otherwise it is even worse than basic CNNs
+-> Model5.1 - Residual Network (12 conv layers) + 2 conv layers + 2 linear layers
+    Stats:
+        Accuracy: 81.76%
+        Training time per epoch: 148s          (no idea how Training time just reduced)
+
+-> Model5.2 - Model5.1 + Data Augmentation  # (Data Augmentation makes a HELLL LOTTA DIFFERENCE DAMN!!!)
+    Stats:
+        Accuracy: 85.71%
+        Training time per epoch: 146s
+
+
+
+(V8)
+-> Model6 - DenseNet (12 conv layers) + 2 conv layers + 2 linear layers
+    Stats:
+        Accuracy: 78.18%
+        Training time per epoch: 255s
+
+# After every dense block, you need a transition layer to lower the number of features to make sure the model stays fine.
+-> Model6.1 - DenseNet (12 conv layers) + 2 conv layers + 2 linear layers
+    Stats:
+        Accuracy: 81.67%
+        Training time per epoch: 385s
+
+-> Model6.2 - Model6.1 + Data Augmentation
+    Stats:
+        Accuracy: 82.61%
+        Training time per epoch: 404s
+
+
+
+(V9)
+-> Model7 - Using Inception Architecture (18 conv layers) + 3 conv layers + 1 linear layer
+    Stats:
+        Accuracy: 85.85%
+        Training time per epoch: 195s
+
+## Tried out my RTX4060 laptop -> time per epochs reduced by 6-7x
