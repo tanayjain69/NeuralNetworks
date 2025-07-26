@@ -1,0 +1,11 @@
+## Was fascinated by Image Generation by AI, so decided to give it a try myself
+
+# Model V1
+    Description - Created a basic DCGAN model learning on a dataset of anime character face images
+    Learning details about how that mathematics behind this works and how to make it better
+    Added residual connections and logics that I learnt while learning Image Classification
+
+# Model V2
+    Description - While figuring out to make this better, learnt a lot more theory like
+    hinge loss and other stuff and implemented that in this version (some improvement but not a lot)
+    
